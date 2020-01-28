@@ -98,7 +98,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: https://github.com/ideshun/my-blog.git
+  type: ''#git
+  #epo: https://github.com/ideshun/my-blog.git
   # example, https://github.com/hexojs/hexojs.github.io
-  branch: master
+  #branch: master
