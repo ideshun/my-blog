@@ -95,10 +95,23 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: landscape
 
+#https://github.com/alexbruno/hexo-generator-json-content
+jsonContent:
+  dateFormat: YYYY/MM/DD
+  pages: false
+  posts:
+    tags: true
+    title: true
+    date: true
+    text: true
+    permalink: true
+    photos: true
+  file: content.json
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''#git
-  #epo: https://github.com/ideshun/my-blog.git
+  type: git
+  repo: https://github.com/ideshun/my-blog.git
   # example, https://github.com/hexojs/hexojs.github.io
-  #branch: master
+  branch: master
